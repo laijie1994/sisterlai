@@ -1,0 +1,7 @@
+[2017-10-27 12:48:14 *25009.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: #42000Unknown database 'wiki' in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:205
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(73): swoole_http_server->start()
+#2 /data/wwwroot/sisterlai/vendor/t
+[2017-10-27 12:48:14 $24997.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-27 12:49:43 #25091.4]	NOTICE	Server is shutdown now.
