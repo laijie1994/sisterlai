@@ -670,16 +670,16 @@
         },
         {
             "name": "tmtbe/swooledistributed",
-            "version": "2.6.4",
+            "version": "2.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tmtbe/SwooleDistributed.git",
-                "reference": "5c6728a14e3e61baeedd1b69b5d30852350fa179"
+                "reference": "5d129b61fae4a69a2ef7449736cca34e485052f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/tmtbe/SwooleDistributed/5c6728a14e3e61baeedd1b69b5d30852350fa179.zip",
-                "reference": "5c6728a14e3e61baeedd1b69b5d30852350fa179",
+                "url": "https://files.phpcomposer.com/files/tmtbe/SwooleDistributed/5d129b61fae4a69a2ef7449736cca34e485052f3.zip",
+                "reference": "5d129b61fae4a69a2ef7449736cca34e485052f3",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "server",
                 "swoole"
             ],
-            "time": "2017-10-26T06:37:40+00:00"
+            "time": "2017-10-30T06:57:47+00:00"
         },
         {
             "name": "voku/anti-xss",

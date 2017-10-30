@@ -5,3 +5,353 @@ Stack trace:
 #2 /data/wwwroot/sisterlai/vendor/t
 [2017-10-27 12:48:14 $24997.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
 [2017-10-27 12:49:43 #25091.4]	NOTICE	Server is shutdown now.
+[2017-10-27 15:51:47 $27378.0]	NOTICE	Server is reloading now.
+[2017-10-27 18:28:48 $27378.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2017-10-27 18:28:48 #27367.4]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 18:28:48 *1912.2]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 18:28:48 *1911.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 18:28:48 *1913.3]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 18:28:48 *1910.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 18:33:33 #27367.4]	NOTICE	Server is shutdown now.
+[2017-10-30 15:24:48 $18286.0]	NOTICE	Server is reloading now.
+[2017-10-30 15:24:48 ^18700.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18701.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18694.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18696.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18697.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 ^18698.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 ^18702.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 ^18699.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 *18695.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18703.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18704.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18705.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18706.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18709.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18710.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18711.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18707.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18708.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18712.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18714.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18713.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18715.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18716.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18717.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18718.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18719.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18720.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18721.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18722.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18723.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18724.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18725.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18726.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18727.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18728.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18729.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18730.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18731.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18732.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18733.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18734.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18735.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18736.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18737.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18738.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18739.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18740.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18741.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18742.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18743.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18744.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18745.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18746.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18747.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18748.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18749.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18750.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 *18751.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:48 ^18752.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:48 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 ^18753.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 ^18754.8]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:49 *18755.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 1)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:49 *18756.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 3)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:49 ^18757.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:49 *18758.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 0)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:49 ^18759.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:49 *18760.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\Coroutine\Coroutine' not found in /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:243
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleHttpServer.php(86): Server\SwooleServer->onSwooleWorkerStart(Object(swoole_websocket_server), 2)
+#1 /data/wwwroot/sisterlai/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(92): Server\SwooleHttpServer->onS
+[2017-10-30 15:24:49 ^18761.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught LogicException: The specified directory path "/data/wwwroot/sisterlai/bin/../vendor/tmtbe/swooledistributed/src/Server/Views" does not exist. in /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php:72
+Stack trace:
+#0 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folder.php(39): League\Plates\Template\Folder->setPath('/data/wwwroot/s...')
+#1 /data/wwwroot/sisterlai/vendor/league/plates/src/Template/Folders.php(31): League\Pl
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#8 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-10-30 15:24:49 $18286.0]	NOTICE	Server is reloading now.
