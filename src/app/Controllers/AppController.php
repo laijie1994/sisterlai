@@ -70,4 +70,9 @@ class AppController extends Controller
     {
         $this->http_output->end(1123);
     }
+
+    public function test()
+    {
+        $this->http_output->end(1123);
+    }
 }
