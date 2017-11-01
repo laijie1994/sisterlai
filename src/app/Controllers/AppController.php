@@ -68,11 +68,11 @@ class AppController extends Controller
 
     public function http_test()
     {
-        $this->http_output->end("带http前缀的");
+        $this->http_output->end("with http_");
     }
 
     public function test()
     {
-        $this->http_output->end("不带http前缀的");
+        $this->http_output->end("with out http_");
     }
 }
