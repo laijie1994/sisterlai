@@ -75,4 +75,9 @@ class AppController extends Controller
     {
         $this->http_output->end("with out http_");
     }
+
+    public function http_onClose()
+    {
+        $this->http_output->end("http connect closed");
+    }
 }
